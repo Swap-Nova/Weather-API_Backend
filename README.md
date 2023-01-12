@@ -16,6 +16,7 @@ Created GET requests with the node HTTPS module. Here we are using the native HT
 The ```JSON.parse()``` static method parses a JSON string, constructing the JavaScript value or object described by the string.
 
 ## Running the server:
+* Inside the terminal, navigate to your directory where you have installed the repo files and type:
 ```
 nodemon app.js
 ```
