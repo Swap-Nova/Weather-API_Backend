@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const https=require('https'); // it is an native node module 
-const bodyParser=require('body-parser');
+const bodyParser=require('body-parser'); // body-parser for using html forms in backend 
 
 app.use(bodyParser.urlencoded({extended:true}));
 
